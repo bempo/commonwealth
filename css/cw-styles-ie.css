@@ -1,0 +1,27 @@
+.featured {
+	background-color: rgb(15,20,20);
+	border:rgb(166,220,60) solid 0.666em;	
+}
+.resize-ie {
+	position:absolute;
+	z-index:-10;
+	max-width:100%;
+	max-height:100%;
+}
+.resize-ie img {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+img {
+	border:0;
+}
+.directions {
+	padding:0;
+}
+.directions p {
+}
+.directions img {
+	margin:-0.8em;
+}
+

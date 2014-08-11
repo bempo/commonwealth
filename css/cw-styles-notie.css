@@ -1,0 +1,206 @@
+
+/* Load small BG images for small small portrait screens */
+ @media only screen and (max-width: 319px) and (orientation: portrait) {
+	#home .wallpaper {
+		background-image: url(../images/small-portrait/home2.jpg);
+	}
+	#about .wallpaper {
+		background-image: url(../images/small-portrait/about.jpg);
+	}
+	#shows .wallpaper {
+		background-image: url(../images/small-portrait/shows.jpg);
+	}
+	#blog .wallpaper {
+		background-image: url(../images/small-portrait/blog.jpg);
+	}
+	#press .wallpaper {
+		background-image: url(../images/small-portrait/press.jpg);
+	}
+	#participate .wallpaper {
+		background-image: url(../images/small-portrait/participate.jpg);
+	}
+	#contact .wallpaper {
+		background-image: url(../images/small-portrait/contact.jpg);
+	}
+}
+
+/* Load medium-sized images for portrait phones */
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+	#home .wallpaper {
+		background-image: url(../images/med-portrait/home2.jpg);
+	}
+	#about .wallpaper {
+		background-image: url(../images/med-portrait/about.jpg);
+	}
+	#shows .wallpaper {
+		background-image: url(../images/med-portrait/shows.jpg);
+	}
+	#blog .wallpaper {
+		background-image: url(../images/med-portrait/blog.jpg);
+	}
+	#press .wallpaper {
+		background-image: url(../images/med-portrait/press.jpg);
+	}
+	#participate .wallpaper {
+		background-image: url(../images/med-portrait/participate.jpg);
+	}
+	#contact .wallpaper {
+		background-image: url(../images/med-portrait/contact.jpg);
+	}
+}
+
+/* Load small-sized BG images for small screens */
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	#home .wallpaper {
+		background-image: url(../images/small/home2.jpg);
+	}
+	#about .wallpaper {
+		background-image: url(../images/small/about.jpg);
+	}
+	#shows .wallpaper {
+		background-image: url(../images/small/shows.jpg);
+	}
+	#blog .wallpaper {
+		background-image: url(../images/small/blog.jpg);
+	}
+	#press .wallpaper {
+		background-image: url(../images/small/press.jpg);
+	}
+	#participate .wallpaper {
+		background-image: url(../images/small/participate.jpg);
+	}
+	#contact .wallpaper {
+		background-image: url(../images/small/contact.jpg);
+	}
+}
+
+/* Load medium-sized images for medium-sized devices */
+@media only screen and (min-width: 481px) {
+	#home .wallpaper {
+		background-image: url(../images/medium/home2.jpg);
+	}
+	#about .wallpaper {
+		background-image: url(../images/medium/about.jpg);
+	}
+	#shows .wallpaper {
+		background-image: url(../images/medium/shows.jpg);
+	}
+	#blog .wallpaper {
+		background-image: url(../images/medium/blog.jpg);
+	}
+	#press .wallpaper {
+		background-image: url(../images/medium/press.jpg);
+	}
+	#participate .wallpaper {
+		background-image: url(../images/medium/participate.jpg);
+	}
+	#contact .wallpaper {
+		background-image: url(../images/medium/contact.jpg);
+	}
+}
+
+/* Load full-size BG images for Laptops & Portrait Tablets */
+@media only screen and (min-width: 1024px), screen and (min-width: 532px) and (orientation: portrait) {
+
+	#home .wallpaper {
+		background-image: url(../images/large/home2.jpg);
+	}
+	#about .wallpaper {
+		background-image: url(../images/large/about.jpg);
+	}
+	#shows .wallpaper {
+		background-image: url(../images/large/shows.jpg);
+	}
+	#blog .wallpaper {
+		background-image: url(../images/large/blog.jpg);
+	}
+	#press .wallpaper {
+		background-image: url(../images/large/press.jpg);
+	}
+	#participate .wallpaper {
+		background-image: url(../images/large/participate.jpg);
+	}
+	#contact .wallpaper {
+		background-image: url(../images/large/contact.jpg);
+	}
+}
+
+.directions {
+	background: url(images/bus.png) no-repeat center center transparent;
+	background-size: contain; 
+}
+
+.logostamp {
+	background: url(../images/cw_logo.png) no-repeat center;
+	background-size: contain;
+}
+
+.home-a {
+	background-image: url(images/home_icons.png);  
+	background-size:200%;
+}
+
+#girlboxer.prodbox {
+	background-image: url(../images/prod-thumbs/girlboxer-thumb.jpg);
+}
+#glasshouse.prodbox {
+	background-image: url(../images/prod-thumbs/ogh-thumb.jpg);
+}
+#upsanddowns.prodbox {
+	background-image: url(../images/prod-thumbs/ups-downs-thumb.jpg);
+}
+#juniper.prodbox {
+	background-image: url(../images/prod-thumbs/juniper-thumb.jpg);
+}
+#indecent.prodbox {
+	background-image: url(../images/prod-thumbs/indecent-thumb.jpg);
+}
+.featured {
+	background: url(../images/featured.jpg) no-repeat center rgba(166,220,60,0.7);
+	background-size: cover; 
+}
+
+#about .main {
+	background-image: url(images/about_overlay.png);
+	background-size: cover; 
+}
+
+.profileframe {
+	background: url(images/prodframe.png) no-repeat fixed transparent;
+	background-size: 100% 100%; 
+}
+
+.watchlinks div {
+	background: url(images/tv.png) no-repeat center left;
+	background-size: 1.4em;
+}
+
+#shows .main {
+	background-image: url(images/shows_overlay.gif);
+	background-size: contain; 
+}
+
+.prodframe {
+	background: url(images/prodframe.png) no-repeat fixed transparent;
+	background-size: 100% 100%; 
+}
+
+#participate .main {
+	background-image:url(images/participate_overlay.png);
+	background-size: contain; 
+}
+
+#blog .background,
+#press .background {
+	background-image:url(images/prodframe.png);
+	background-size: 100% 100%; 
+}
+
+#contact .main {
+	background-image:url(images/contact_overlay.png);
+	background-size: contain; 
+}
+.prodbg {
+	background-image: url(images/shows_0.gif);
+	background-size: contain; 
+}
